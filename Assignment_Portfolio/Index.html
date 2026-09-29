@@ -1,17 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Anurag Pandey</h1>
-    <h2>Chief Executive Officer</h2>
-    <a href="Introduction.html">Introduction</a>
-    <a href="Experiance.html">Experiance</a>
-    <a href="Skills.html">Skills</a>
-    <a href="Projects.html">Projects</a>
-    <a href="Youtube_video.html">Youtube</a>
+    <div class="container">
+        <header>
+            <h1>Anurag Pandey</h1>
+            <h2>Chief Executive Officer</h2>
+            <nav>
+                <a href="#Introduction">Introduction</a>
+                <a href="#Experience">Experiance</a>
+                <a href="#Projects">Projects</a>
+                <a href="#Skills">Skills</a>
+                <a href="#youtube">Youtube</a>
+            </nav>
+        </header>
+
+        <main>
+            <div id="Introduction">
+                <h1>Introduction</h1>
+                <p> <b>Anurag Pandey</b> is the <mark>Chief Executive Officer (CEO)</mark>
+                    of the company, responsible for providing strategic leadership
+                    and guiding the organization toward sustainable growth. With a
+                    strong focus on business development, operational management,
+                    and organizational performance, he plays an important role in
+                    setting the companys vision and achieving its long-term objectives.
+
+                    As CEO, <u>Anurag Pandey oversees key business activities, coordinates with different departments,
+                        and
+                        supports
+                        effective decision-making.</u> His leadership focuses on improving efficiency, maintaining
+                    professional standards,
+                    strengthening client relationships, and identifying new opportunities for business growth. Through
+                    his
+                    strategic
+                    approach and <i>commitment to organizational development</i>, he contributes to the overall success
+                    and
+                    progress of the
+                    company. </p>
+                <p>(a+b)<sup>2</sup></p>
+                <p>C<sub>2</sub>H<sub>5</sub>OH</p>
+            </div>
+            <figure>
+                <img src="image/anurag_pandey.png" alt="">
+                <figcaption>Anurag Pandey – Chief Executive Office<br></figcaption>
+            </figure>
+
+            <div id="Experience">
+                <h1><b>Experience</b></h1>
+                <ol>
+                    <li>20+ years of experience in the fashion and lifestyle industry.
+                    <li>Worked with Bata India, ALDO India, Hush Puppies, and Aditya Birla Fashion.</li>
+                    <li>Joined Arvind Fashions in 2018.</li>
+                    <li>Currently serves as CEO of the Footwear Business Division.</li>
+                    <li>Experienced in footwear, brand development, retail, and business growth.</li>
+                    <li>Has expertise in building and scaling footwear brands.</li>
+
+
+                </ol>
+            </div>
+
+            <div id="Projects">
+                <h1><b>Projects</b></h1>
+                <ul>
+                    <li>Footwear business growth — Led strategy, development, and growth of footwear and accessories at
+                        Arvind Fashions.</li>
+                    <li>U.S. Polo Assn. footwear — Worked on growing the brand’s footwear business.</li>
+                    <li>Arrow footwear — Responsible for footwear business development.</li>
+                </ul>
+            </div>
+
+            <div id="Skills">
+                <h1><b>Skills</b></h1>
+                <table border="1">
+
+                    <tr>
+                        <th>Skills</th>
+                        <th>Years</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>Footwear Industry Management</td>
+                            <td>2002</td>
+                        </tr>
+                        <tr>
+                            <td>Brand Development & Management</td>
+                            <td>2005</td>
+                        </tr>
+                        <tr>
+                            <td>Retail & Sales Management</td>
+                            <td>2010</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="youtube">
+                <h1><b>Youtube Video</b></h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EpnjOBm0BUA?si=Ohsp9M-60afiPbjj"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+            <section id="contact">
+                <h2>Contact Form</h2>
+
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label>Gender:</label>
+                    <div class="gender-options">
+                        <label>
+                            <input type="radio" name="gender" value="male">
+                            Male
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender" value="female">
+                            Female
+                        </label>
+
+                        <label>
+                            <input type="radio" name="gender" value="other">
+                            Others
+                        </label>
+                    </div>
+
+                    <label for="role">Role:</label>
+                    <select id="role" name="role">
+                        <option value="">Select Role</option>
+                        <option value="student">Student</option>
+                        <option value="employee">Employee</option>
+                        <option value="manager">Manager</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+    </div>
 </body>
+
 </html>
